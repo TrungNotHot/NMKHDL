@@ -1,0 +1,454 @@
+,Title,Authors,Abstract,Subject,DownloadURL
+0,Voyager: An Open-Ended Embodied Agent with Large Language Models,"['Guanzhi Wang', 'Yuqi Xie', 'Yunfan Jiang', 'Ajay Mandlekar', 'Chaowei Xiao', 'Yuke Zhu', 'Linxi Fan', 'Anima Anandkumar']","Abstract:  We introduce Voyager, the first LLM-powered embodied lifelong learning agent
+in Minecraft that continuously explores the world, acquires diverse skills, and
+makes novel discoveries without human intervention. Voyager consists of three
+key components: 1) an automatic curriculum that maximizes exploration, 2) an
+ever-growing skill library of executable code for storing and retrieving
+complex behaviors, and 3) a new iterative prompting mechanism that incorporates
+environment feedback, execution errors, and self-verification for program
+improvement. Voyager interacts with GPT-4 via blackbox queries, which bypasses
+the need for model parameter fine-tuning. The skills developed by Voyager are
+temporally extended, interpretable, and compositional, which compounds the
+agent's abilities rapidly and alleviates catastrophic forgetting. Empirically,
+Voyager shows strong in-context lifelong learning capability and exhibits
+exceptional proficiency in playing Minecraft. It obtains 3.3x more unique
+items, travels 2.3x longer distances, and unlocks key tech tree milestones up
+to 15.3x faster than prior SOTA. Voyager is able to utilize the learned skill
+library in a new Minecraft world to solve novel tasks from scratch, while other
+techniques struggle to generalize. We open-source our full codebase and prompts
+at this https URL.
+
+    ",Artificial Intelligence (cs.AI); Machine Learning (cs.LG),https://arxiv.org/pdf/2305.16291
+1,UpMax: User partitioning for MaxSAT,"['Pedro Orvalho', 'Vasco Manquinho', 'Ruben Martins']","Abstract:  It has been shown that Maximum Satisfiability (MaxSAT) problem instances can
+be effectively solved by partitioning the set of soft clauses into several
+disjoint sets. The partitioning methods can be based on clause weights (e.g.,
+stratification) or based on graph representations of the formula. Afterwards, a
+merge procedure is applied to guarantee that an optimal solution is found.
+This paper proposes a new framework called UpMax that decouples the
+partitioning procedure from the MaxSAT solving algorithms. As a result, new
+partitioning procedures can be defined independently of the MaxSAT algorithm to
+be used. Moreover, this decoupling also allows users that build new MaxSAT
+formulas to propose partition schemes based on knowledge of the problem to be
+solved. We illustrate this approach using several problems and show that
+partitioning has a large impact on the performance of unsatisfiability-based
+MaxSAT algorithms.
+
+    ",Artificial Intelligence (cs.AI); Logic in Computer Science (cs.LO),https://arxiv.org/pdf/2305.16191
+2,Understanding the Capabilities of Large Language Models for Automated Planning,"['Vishal Pallagani', 'Bharath Muppasani', 'Keerthiram Murugesan', 'Francesca Rossi', 'Biplav Srivastava', 'Lior Horesh', 'Francesco Fabiano', 'Andrea Loreggia']","Abstract:  Automated planning is concerned with developing efficient algorithms to
+generate plans or sequences of actions to achieve a specific goal in a given
+environment. Emerging Large Language Models (LLMs) can answer questions, write
+high-quality programming code, and predict protein folding, showcasing their
+versatility in solving various tasks beyond language-based problems. In this
+paper, we aim to explore how LLMs can also be used for automated planning. To
+do so, we seek to answer four key questions. Firstly, we want to understand the
+extent to which LLMs can be used for plan generation. Secondly, we aim to
+identify which pre-training data is most effective in facilitating plan
+generation. Thirdly, we investigate whether fine-tuning or prompting is a more
+effective approach for plan generation. Finally, we explore whether LLMs are
+capable of plan generalization. By answering these questions, the study seeks
+to shed light on the capabilities of LLMs in solving complex planning problems
+and provide insights into the most effective approaches for using LLMs in this
+context.
+
+    ",Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16151
+3,A Diagnosis Algorithms for a Rotary Indexing Machine,"['Maria Krantz', 'Oliver Niggemann']","Abstract:  Rotary Indexing Machines (RIMs) are widely used in manufacturing due to their
+ability to perform multiple production steps on a single product without manual
+repositioning, reducing production time and improving accuracy and consistency.
+Despite their advantages, little research has been done on diagnosing faults in
+RIMs, especially from the perspective of the actual production steps carried
+out on these machines. Long downtimes due to failures are problematic,
+especially for smaller companies employing these machines. To address this gap,
+we propose a diagnosis algorithm based on the product perspective, which
+focuses on the product being processed by RIMs. The algorithm traces the steps
+that a product takes through the machine and is able to diagnose possible
+causes in case of failure. We also analyze the properties of RIMs and how these
+influence the diagnosis of faults in these machines. Our contributions are
+three-fold. Firstly, we provide an analysis of the properties of RIMs and how
+they influence the diagnosis of faults in these machines. Secondly, we suggest
+a diagnosis algorithm based on the product perspective capable of diagnosing
+faults in such a machine. Finally, we test this algorithm on a model of a
+rotary indexing machine, demonstrating its effectiveness in identifying faults
+and their root causes.
+
+    ",Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.15934
+4,Learning Assumption-based Argumentation Frameworks,"['Maurizio Proietti', 'Francesca Toni']","Abstract:  We propose a novel approach to logic-based learning which generates
+assumption-based argumentation (ABA) frameworks from positive and negative
+examples, using a given background knowledge. These ABA frameworks can be
+mapped onto logic programs with negation as failure that may be non-stratified.
+Whereas existing argumentation-based methods learn exceptions to general rules
+by interpreting the exceptions as rebuttal attacks, our approach interprets
+them as undercutting attacks. Our learning technique is based on the use of
+transformation rules, including some adapted from logic program transformation
+rules (notably folding) as well as others, such as rote learning and assumption
+introduction. We present a general strategy that applies the transformation
+rules in a suitable order to learn stratified frameworks, and we also propose a
+variant that handles the non-stratified case. We illustrate the benefits of our
+approach with a number of examples, which show that, on one hand, we are able
+to easily reconstruct other logic-based learning approaches and, on the other
+hand, we can work out in a very simple and natural way problems that seem to be
+hard for existing techniques.
+
+    ",Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.15921
+5,On the Planning Abilities of Large Language Models -- A Critical Investigation,"['Karthik Valmeekam', 'Matthew Marquez', 'Sarath Sreedharan', 'Subbarao Kambhampati']","Abstract:  Intrigued by the claims of emergent reasoning capabilities in LLMs trained on
+general web corpora, in this paper, we set out to investigate their planning
+capabilities. We aim to evaluate (1) the effectiveness of LLMs in generating
+plans autonomously in commonsense planning tasks and (2) the potential of LLMs
+as a source of heuristic guidance for other agents (AI planners) in their
+planning tasks. We conduct a systematic study by generating a suite of
+instances on domains similar to the ones employed in the International Planning
+Competition and evaluate LLMs in two distinct modes: autonomous and heuristic.
+Our findings reveal that LLMs' ability to generate executable plans
+autonomously is rather limited, with the best model (GPT-4) having an average
+success rate of ~12% across the domains. However, the results in the heuristic
+mode show more promise. In the heuristic mode, we demonstrate that
+LLM-generated plans can improve the search process for underlying sound
+planners and additionally show that external verifiers can help provide
+feedback on the generated plans and back-prompt the LLM for better plan
+generation.
+
+    ",Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.15771
+6,TransWorldNG: Traffic Simulation via Foundation Model,"['Ding Wang', 'Xuhong Wang', 'Liang Chen', 'Shengyue Yao', 'Ming Jing', 'Honghai Li', 'Li Li', 'Shiqiang Bao', 'Fei-Yue Wang', 'Yilun Lin']","Abstract:  Traffic simulation is a crucial tool for transportation decision-making and
+policy development. However, achieving realistic simulations in the face of the
+high dimensionality and heterogeneity of traffic environments is a longstanding
+challenge. In this paper, we present TransWordNG, a traffic simulator that uses
+Data-driven algorithms and Graph Computing techniques to learn traffic dynamics
+from real data. The functionality and structure of TransWorldNG are introduced,
+which utilize a foundation model for transportation management and control. The
+results demonstrate that TransWorldNG can generate more realistic traffic
+patterns compared to traditional simulators. Additionally, TransWorldNG
+exhibits better scalability, as it shows linear growth in computation time as
+the scenario scale increases. To the best of our knowledge, this is the first
+traffic simulator that can automatically learn traffic patterns from real-world
+data and efficiently generate accurate and realistic traffic environments.
+
+    ",Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.15743
+7,Asking Before Action: Gather Information in Embodied Decision Making with Language Models,"['Xiaoyu Chen', 'Shenao Zhang', 'Pushi Zhang', 'Li Zhao', 'Jianyu Chen']","Abstract:  With strong capabilities of reasoning and a generic understanding of the
+world, Large Language Models (LLMs) have shown great potential in building
+versatile embodied decision making agents capable of performing diverse tasks.
+However, when deployed to unfamiliar environments, we show that LLM agents face
+challenges in efficiently gathering necessary information, leading to
+suboptimal performance. On the other hand, in unfamiliar scenarios, human
+individuals often seek additional information from their peers before taking
+action, leveraging external knowledge to avoid unnecessary trial and error.
+Building upon this intuition, we propose \textit{Asking Before Action} (ABA), a
+method that empowers the agent to proactively query external sources for
+pertinent information using natural language during their interactions in the
+environment. In this way, the agent is able to enhance its efficiency and
+performance by mitigating wasteful steps and circumventing the difficulties
+associated with exploration in unfamiliar environments. We empirically evaluate
+our method on an embodied decision making benchmark, ALFWorld, and demonstrate
+that despite modest modifications in prompts, our method exceeds baseline LLM
+agents by more than $40$%. Further experiments on two variants of ALFWorld
+illustrate that by imitation learning, ABA effectively retains and reuses
+queried and known information in subsequent tasks, mitigating the need for
+repetitive inquiries. Both qualitative and quantitative results exhibit
+remarkable performance on tasks that previous methods struggle to solve.
+
+    ",Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.15695
+8,SPRING: GPT-4 Out-performs RL Algorithms by Studying Papers and Reasoning,"['Yue Wu', 'So Yeon Min', 'Shrimai Prabhumoye', 'Yonatan Bisk', 'Ruslan Salakhutdinov', 'Amos Azaria', 'Tom Mitchell', 'Yuanzhi Li']","Abstract:  Open-world survival games pose significant challenges for AI algorithms due
+to their multi-tasking, deep exploration, and goal prioritization requirements.
+Despite reinforcement learning (RL) being popular for solving games, its high
+sample complexity limits its effectiveness in complex open-world games like
+Crafter or Minecraft. We propose a novel approach, SPRING, to read the game's
+original academic paper and use the knowledge learned to reason and play the
+game through a large language model (LLM). Prompted with the LaTeX source as
+game context and a description of the agent's current observation, our SPRING
+framework employs a directed acyclic graph (DAG) with game-related questions as
+nodes and dependencies as edges. We identify the optimal action to take in the
+environment by traversing the DAG and calculating LLM responses for each node
+in topological order, with the LLM's answer to final node directly translating
+to environment actions. In our experiments, we study the quality of in-context
+""reasoning"" induced by different forms of prompts under the setting of the
+Crafter open-world environment. Our experiments suggest that LLMs, when
+prompted with consistent chain-of-thought, have great potential in completing
+sophisticated high-level trajectories. Quantitatively, SPRING with GPT-4
+outperforms all state-of-the-art RL baselines, trained for 1M steps, without
+any training. Finally, we show the potential of games as a test bed for LLMs.
+
+    ",Artificial Intelligence (cs.AI); Machine Learning (cs.LG),https://arxiv.org/pdf/2305.15486
+9,Referred by Multi-Modality: A Unified Temporal Transformer for Video Object Segmentation,"['Shilin Yan', 'Renrui Zhang', 'Ziyu Guo', 'Wenchao Chen', 'Wei Zhang', 'Hongyang Li', 'Yu Qiao', 'Zhongjiang He', 'Peng Gao']","Abstract:  Recently, video object segmentation (VOS) referred by multi-modal signals,
+e.g., language and audio, has evoked increasing attention in both industry and
+academia. It is challenging for exploring the semantic alignment within
+modalities and the visual correspondence across frames. However, existing
+methods adopt separate network architectures for different modalities, and
+neglect the inter-frame temporal interaction with references. In this paper, we
+propose MUTR, a Multi-modal Unified Temporal transformer for Referring video
+object segmentation. With a unified framework for the first time, MUTR adopts a
+DETR-style transformer and is capable of segmenting video objects designated by
+either text or audio reference. Specifically, we introduce two strategies to
+fully explore the temporal relations between videos and multi-modal signals.
+Firstly, for low-level temporal aggregation before the transformer, we enable
+the multi-modal references to capture multi-scale visual cues from consecutive
+video frames. This effectively endows the text or audio signals with temporal
+knowledge and boosts the semantic alignment between modalities. Secondly, for
+high-level temporal interaction after the transformer, we conduct inter-frame
+feature communication for different object embeddings, contributing to better
+object-wise correspondence for tracking along the video. On Ref-YouTube-VOS and
+AVSBench datasets with respective text and audio references, MUTR achieves
++4.2% and +4.2% J&F improvements to state-of-the-art methods, demonstrating our
+significance for unified multi-modal VOS. Code is released at
+this https URL.
+
+    ",Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Multimedia (cs.MM),https://arxiv.org/pdf/2305.16318
+10,Parallel Sampling of Diffusion Models,"['Andy Shih', 'Suneel Belkhale', 'Stefano Ermon', 'Dorsa Sadigh', 'Nima Anari']","Abstract:  Diffusion models are powerful generative models but suffer from slow
+sampling, often taking 1000 sequential denoising steps for one sample. As a
+result, considerable efforts have been directed toward reducing the number of
+denoising steps, but these methods hurt sample quality. Instead of reducing the
+number of denoising steps (trading quality for speed), in this paper we explore
+an orthogonal approach: can we run the denoising steps in parallel (trading
+compute for speed)? In spite of the sequential nature of the denoising steps,
+we show that surprisingly it is possible to parallelize sampling via Picard
+iterations, by guessing the solution of future denoising steps and iteratively
+refining until convergence. With this insight, we present ParaDiGMS, a novel
+method to accelerate the sampling of pretrained diffusion models by denoising
+multiple steps in parallel. ParaDiGMS is the first diffusion sampling method
+that enables trading compute for speed and is even compatible with existing
+fast sampling techniques such as DDIM and DPMSolver. Using ParaDiGMS, we
+improve sampling speed by 2-4x across a range of robotics and image generation
+models, giving state-of-the-art sampling speeds of 0.2s on 100-step
+DiffusionPolicy and 16s on 1000-step StableDiffusion-v2 with no measurable
+degradation of task reward, FID score, or CLIP score.
+
+    ",Machine Learning (cs.LG); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16317
+11,UMat: Uncertainty-Aware Single Image High Resolution Material Capture,"['Carlos Rodriguez-Pardo', 'Henar Dominguez-Elvira', 'David Pascual-Hernandez', 'Elena Garces']","Abstract:  We propose a learning-based method to recover normals, specularity, and
+roughness from a single diffuse image of a material, using microgeometry
+appearance as our primary cue. Previous methods that work on single images tend
+to produce over-smooth outputs with artifacts, operate at limited resolution,
+or train one model per class with little room for generalization. Previous
+methods that work on single images tend to produce over-smooth outputs with
+artifacts, operate at limited resolution, or train one model per class with
+little room for generalization. In contrast, in this work, we propose a novel
+capture approach that leverages a generative network with attention and a U-Net
+discriminator, which shows outstanding performance integrating global
+information at reduced computational complexity. We showcase the performance of
+our method with a real dataset of digitized textile materials and show that a
+commodity flatbed scanner can produce the type of diffuse illumination required
+as input to our method. Additionally, because the problem might be illposed
+-more than a single diffuse image might be needed to disambiguate the specular
+reflection- or because the training dataset is not representative enough of the
+real distribution, we propose a novel framework to quantify the model's
+confidence about its prediction at test time. Our method is the first one to
+deal with the problem of modeling uncertainty in material digitization,
+increasing the trustworthiness of the process and enabling more intelligent
+strategies for dataset creation, as we demonstrate with an active learning
+experiment.
+
+    ",Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Graphics (cs.GR); Machine Learning (cs.LG),https://arxiv.org/pdf/2305.16312
+12,Fine-Grained Complexity Analysis of Multi-Agent Path Finding on 2D Grids,['Tzvika Geft'],"Abstract:  Multi-Agent Path Finding (MAPF) is a fundamental motion coordination problem
+arising in multi-agent systems with a wide range of applications. The problem's
+intractability has led to extensive research on improving the scalability of
+solvers for it. Since optimal solvers can struggle to scale, a major challenge
+that arises is understanding what makes MAPF hard. We tackle this challenge
+through a fine-grained complexity analysis of time-optimal MAPF on 2D grids,
+thereby closing two gaps and identifying a new tractability frontier. First, we
+show that 2-colored MAPF, i.e., where the agents are divided into two teams,
+each with its own set of targets, remains NP-hard. Second, for the flowtime
+objective (also called sum-of-costs), we show that it remains NP-hard to find a
+solution in which agents have an individually optimal cost, which we call an
+individually optimal solution. The previously tightest results for these MAPF
+variants are for (non-grid) planar graphs. We use a single hardness
+construction that replaces, strengthens, and unifies previous proofs. We
+believe that it is also simpler than previous proofs for the planar case as it
+employs minimal gadgets that enable its full visualization in one figure.
+Finally, for the flowtime objective, we establish a tractability frontier based
+on the number of directions agents can move in. Namely, we complement our
+hardness result, which holds for three directions, with an efficient algorithm
+for finding an individually optimal solution if only two directions are
+allowed. This result sheds new light on the structure of optimal solutions,
+which may help guide algorithm design for the general problem.
+
+    ",Multiagent Systems (cs.MA); Artificial Intelligence (cs.AI); Computational Geometry (cs.CG); Robotics (cs.RO),https://arxiv.org/pdf/2305.16303
+13,HAAV: Hierarchical Aggregation of Augmented Views for Image Captioning,"['Chia-Wen Kuo', 'Zsolt Kira']","Abstract:  A great deal of progress has been made in image captioning, driven by
+research into how to encode the image using pre-trained models. This includes
+visual encodings (e.g. image grid features or detected objects) and more
+recently textual encodings (e.g. image tags or text descriptions of image
+regions). As more advanced encodings are available and incorporated, it is
+natural to ask: how to efficiently and effectively leverage the heterogeneous
+set of encodings? In this paper, we propose to regard the encodings as
+augmented views of the input image. The image captioning model encodes each
+view independently with a shared encoder efficiently, and a contrastive loss is
+incorporated across the encoded views in a novel way to improve their
+representation quality and the model's data efficiency. Our proposed
+hierarchical decoder then adaptively weighs the encoded views according to
+their effectiveness for caption generation by first aggregating within each
+view at the token level, and then across views at the view level. We
+demonstrate significant performance improvements of +5.6% CIDEr on MS-COCO and
++12.9% CIDEr on Flickr30k compared to state of the arts, and conduct rigorous
+analyses to demonstrate the importance of each part of our design.
+
+    ",Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16295
+14,Diversify Your Vision Datasets with Automatic Diffusion-Based Augmentation,"['Lisa Dunlap', 'Alyssa Umino', 'Han Zhang', 'Jiezhi Yang', 'Joseph E. Gonzalez', 'Trevor Darrell']","Abstract:  Many fine-grained classification tasks, like rare animal identification, have
+limited training data and consequently classifiers trained on these datasets
+often fail to generalize to variations in the domain like changes in weather or
+location. As such, we explore how natural language descriptions of the domains
+seen in training data can be used with large vision models trained on diverse
+pretraining datasets to generate useful variations of the training data. We
+introduce ALIA (Automated Language-guided Image Augmentation), a method which
+utilizes large vision and language models to automatically generate natural
+language descriptions of a dataset's domains and augment the training data via
+language-guided image editing. To maintain data integrity, a model trained on
+the original dataset filters out minimal image edits and those which corrupt
+class-relevant information. The resulting dataset is visually consistent with
+the original training data and offers significantly enhanced diversity. On
+fine-grained and cluttered datasets for classification and detection, ALIA
+surpasses traditional data augmentation and text-to-image generated data by up
+to 15\%, often even outperforming equivalent additions of real data. Code is
+avilable at this https URL.
+
+    ",Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16289
+15,CENSUS-HWR: a large training dataset for offline handwriting recognition,"['Chetan Joshi', 'Lawry Sorenson', 'Ammon Wolfert', 'Dr. Mark Clement', 'Dr. Joseph Price', 'Dr. Kasey Buckles']","Abstract:  Progress in Automated Handwriting Recognition has been hampered by the lack
+of large training datasets. Nearly all research uses a set of small datasets
+that often cause models to overfit. We present CENSUS-HWR, a new dataset
+consisting of full English handwritten words in 1,812,014 gray scale images. A
+total of 1,865,134 handwritten texts from a vocabulary of 10,711 words in the
+English language are present in this collection. This dataset is intended to
+serve handwriting models as a benchmark for deep learning algorithms. This huge
+English handwriting recognition dataset has been extracted from the US 1930 and
+1940 censuses taken by approximately 70,000 enumerators each year. The dataset
+and the trained model with their weights are freely available to download at
+this https URL.
+
+    ",Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16275
+16,Scaling Data-Constrained Language Models,"['Niklas Muennighoff', 'Alexander M. Rush', 'Boaz Barak', 'Teven Le Scao', 'Aleksandra Piktus', 'Nouamane Tazi', 'Sampo Pyysalo', 'Thomas Wolf', 'Colin Raffel']","Abstract:  The current trend of scaling language models involves increasing both
+parameter count and training dataset size. Extrapolating this trend suggests
+that training dataset size may soon be limited by the amount of text data
+available on the internet. Motivated by this limit, we investigate scaling
+language models in data-constrained regimes. Specifically, we run a large set
+of experiments varying the extent of data repetition and compute budget,
+ranging up to 900 billion training tokens and 9 billion parameter models. We
+find that with constrained data for a fixed compute budget, training with up to
+4 epochs of repeated data yields negligible changes to loss compared to having
+unique data. However, with more repetition, the value of adding compute
+eventually decays to zero. We propose and empirically validate a scaling law
+for compute optimality that accounts for the decreasing value of repeated
+tokens and excess parameters. Finally, we experiment with approaches mitigating
+data scarcity, including augmenting the training dataset with code data or
+removing commonly used filters. Models and datasets from our 400 training runs
+are publicly available at this https URL.
+
+    ",Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Machine Learning (cs.LG),https://arxiv.org/pdf/2305.16264
+17,Unified Modeling of Multi-Talker Overlapped Speech Recognition and Diarization with a Sidecar Separator,"['Lingwei Meng', 'Jiawen Kang', 'Mingyu Cui', 'Haibin Wu', 'Xixin Wu', 'Helen Meng']","Abstract:  Multi-talker overlapped speech poses a significant challenge for speech
+recognition and diarization. Recent research indicated that these two tasks are
+inter-dependent and complementary, motivating us to explore a unified modeling
+method to address them in the context of overlapped speech. A recent study
+proposed a cost-effective method to convert a single-talker automatic speech
+recognition (ASR) system into a multi-talker one, by inserting a Sidecar
+separator into the frozen well-trained ASR model. Extending on this, we
+incorporate a diarization branch into the Sidecar, allowing for unified
+modeling of both ASR and diarization with a negligible overhead of only 768
+parameters. The proposed method yields better ASR results compared to the
+baseline on LibriMix and LibriSpeechMix datasets. Moreover, without
+sophisticated customization on the diarization task, our method achieves
+acceptable diarization results on the two-speaker subset of CALLHOME with only
+a few adaptation steps.
+
+    ",Sound (cs.SD); Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG); Audio and Speech Processing (eess.AS),https://arxiv.org/pdf/2305.16263
+18,Neural Natural Language Processing for Long Texts: A Survey of the State-of-the-Art,"['Dimitrios Tsirmpas', 'Ioannis Gkionis', 'Ioannis Mademlis']","Abstract:  The adoption of Deep Neural Networks (DNNs) has greatly benefited Natural
+Language Processing (NLP) during the past decade. However, the demands of long
+documents analysis are quite different from those of shorter texts, with the
+ever increasing size of documents uploaded online rendering NLP on long
+documents a critical area of research. This paper surveys the current
+state-of-the-art in the domain, overviewing the relevant neural building blocks
+and subsequently focusing on two main NLP tasks: Document Classification,
+Summarization as well as mentioning uses in Sentiment Analysis. We detail the
+challenges, issues and current solutions related to long-document NLP. We also
+list publicly available, labelled, long-document datasets used in current
+research.
+
+    ",Computation and Language (cs.CL); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16259
+19,Fast Online Node Labeling for Very Large Graphs,"['Baojian Zhou', 'Yifan Sun', 'Reza Babanezhad']","Abstract:  This paper studies the online node classification problem under a
+transductive learning setting. Current methods either invert a graph kernel
+matrix with $\mathcal{O}(n^3)$ runtime and $\mathcal{O}(n^2)$ space complexity
+or sample a large volume of random spanning trees, thus are difficult to scale
+to large graphs. In this work, we propose an improvement based on the
+\textit{online relaxation} technique introduced by a series of works (Rakhlin
+et al.,2012; Rakhlin and Sridharan, 2015; 2017). We first prove an effective
+regret $\mathcal{O}(\sqrt{n^{1+\gamma}})$ when suitable parameterized graph
+kernels are chosen, then propose an approximate algorithm FastONL enjoying
+$\mathcal{O}(k\sqrt{n^{1+\gamma}})$ regret based on this relaxation. The key of
+FastONL is a \textit{generalized local push} method that effectively
+approximates inverse matrix columns and applies to a series of popular kernels.
+Furthermore, the per-prediction cost is
+$\mathcal{O}(\text{vol}({\mathcal{S}})\log 1/\epsilon)$ locally dependent on
+the graph with linear memory cost. Experiments show that our scalable method
+enjoys a better tradeoff between local and global consistency.
+
+    ",Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Spectral Theory (math.SP),https://arxiv.org/pdf/2305.16257
+20,C-MCTS: Safe Planning with Monte Carlo Tree Search,"['Dinesh Parthasarathy', 'Georgios Kontes', 'Axel Plinge', 'Christopher Mutschler']","Abstract:  Many real-world decision-making tasks, such as safety-critical scenarios,
+cannot be fully described in a single-objective setting using the Markov
+Decision Process (MDP) framework, as they include hard constraints. These can
+instead be modeled with additional cost functions within the Constrained Markov
+Decision Process (CMDP) framework. Even though CMDPs have been extensively
+studied in the Reinforcement Learning literature, little attention has been
+given to sampling-based planning algorithms such as MCTS for solving them.
+Previous approaches use Monte Carlo cost estimates to avoid constraint
+violations. However, these suffer from high variance which results in
+conservative performance with respect to costs. We propose Constrained MCTS
+(C-MCTS), an algorithm that estimates cost using a safety critic. The safety
+critic training is based on Temporal Difference learning in an offline phase
+prior to agent deployment. This critic limits the exploration of the search
+tree and removes unsafe trajectories within MCTS during deployment. C-MCTS
+satisfies cost constraints but operates closer to the constraint boundary,
+achieving higher rewards compared to previous work. As a nice byproduct, the
+planner is more efficient requiring fewer planning steps. Most importantly, we
+show that under model mismatch between the planner and the real world, our
+approach is less susceptible to cost violations than previous work.
+
+    ",Machine Learning (cs.LG); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16209
+21,On Computing Universal Plans for Partially Observable Multi-Agent Path Finding,"['Fengming Zhu', 'Fangzhen Lin']","Abstract:  Multi-agent routing problems have drawn significant attention nowadays due to
+their broad industrial applications in, e.g., warehouse robots, logistics
+automation, and traffic control. Conventionally, they are modelled as classical
+planning problems. In this paper, we argue that it is beneficial to formulate
+them as universal planning problems. We therefore propose universal plans, also
+known as policies, as the solution concepts, and implement a system called
+ASP-MAUPF (Answer Set Programming for Multi-Agent Universal Plan Finding) for
+computing them. Given an arbitrary two-dimensional map and a profile of goals
+for the agents, the system finds a feasible universal plan for each agent that
+ensures no collision with others. We use the system to conduct some
+experiments, and make some observations on the types of goal profiles and
+environments that will have feasible policies, and how they may depend on
+agents' sensors. We also demonstrate how users can customize action preferences
+to compute more efficient policies, even (near-)optimal ones.
+
+    ",Multiagent Systems (cs.MA); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16203
+22,Optimization and Interpretability of Graph Attention Networks for Small Sparse Graph Structures in Automotive Applications,"['Marion Neumeier', 'Andreas Tollkühn', 'Sebastian Dorn', 'Michael Botsch', 'Wolfgang Utschick']","Abstract:  For automotive applications, the Graph Attention Network (GAT) is a
+prominently used architecture to include relational information of a traffic
+scenario during feature embedding. As shown in this work, however, one of the
+most popular GAT realizations, namely GATv2, has potential pitfalls that hinder
+an optimal parameter learning. Especially for small and sparse graph structures
+a proper optimization is problematic. To surpass limitations, this work
+proposes architectural modifications of GATv2. In controlled experiments, it is
+shown that the proposed model adaptions improve prediction performance in a
+node-level regression task and make it more robust to parameter initialization.
+This work aims for a better understanding of the attention mechanism and
+analyzes its interpretability of identifying causal importance.
+
+    ",Machine Learning (cs.LG); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16196
+23,Abstractive Summary Generation for the Urdu Language,"['Ali Raza', 'Hadia Sultan Raja', 'Usman Maratib']","Abstract:  Abstractive summary generation is a challenging task that requires the model
+to comprehend the source text and generate a concise and coherent summary that
+captures the essential information. In this paper, we explore the use of an
+encoder/decoder approach for abstractive summary generation in the Urdu
+language. We employ a transformer-based model that utilizes self-attention
+mechanisms to encode the input text and generate a summary. Our experiments
+show that our model can produce summaries that are grammatically correct and
+semantically meaningful. We evaluate our model on a publicly available dataset
+and achieve state-of-the-art results in terms of Rouge scores. We also conduct
+a qualitative analysis of our model's output to assess its effectiveness and
+limitations. Our findings suggest that the encoder/decoder approach is a
+promising method for abstractive summary generation in Urdu and can be extended
+to other languages with suitable modifications.
+
+    ",Computation and Language (cs.CL); Artificial Intelligence (cs.AI),https://arxiv.org/pdf/2305.16195
+24,Explainability Techniques for Chemical Language Models,"['Stefan Hödl', 'William Robinson', 'Yoram Bachrach', 'Wilhelm Huck', 'Tal Kachman']","Abstract:  Explainability techniques are crucial in gaining insights into the reasons
+behind the predictions of deep learning models, which have not yet been applied
+to chemical language models. We propose an explainable AI technique that
+attributes the importance of individual atoms towards the predictions made by
+these models. Our method backpropagates the relevance information towards the
+chemical input string and visualizes the importance of individual atoms. We
+focus on self-attention Transformers operating on molecular string
+representations and leverage a pretrained encoder for finetuning. We showcase
+the method by predicting and visualizing solubility in water and organic
+solvents. We achieve competitive model performance while obtaining
+interpretable predictions, which we use to inspect the pretrained model.
+
+    ",Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Chemical Physics (physics.chem-ph),https://arxiv.org/pdf/2305.16192
